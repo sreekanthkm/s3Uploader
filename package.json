@@ -1,0 +1,19 @@
+{
+  "name": "s3uploader",
+  "version": "0.0.1",
+  "description": "Training application in node using mongodb and fake s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhilashsajeev/s3Uploader.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abhilashsajeev/s3Uploader/issues"
+  },
+  "homepage": "https://github.com/abhilashsajeev/s3Uploader#readme"
+}
