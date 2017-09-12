@@ -1,0 +1,35 @@
+{
+  "name": "s3uploader",
+  "version": "0.0.1",
+  "description": "Training application in node using mongodb and fake s3",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sreekanthkm/s3Uploader.git"
+  },
+  "author": "sreekanth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sreekanthkm/s3Uploader/issues"
+  },
+  "homepage": "https://github.com/sreekanthkm/s3Uploader#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-util": "^3.0.7",
+    "require-dir": "^0.3.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-jsbeautifier": "^2.0.3",
+    "gulp-load-plugins": "^1.2.4"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.3.16",
+    "bluebird": "^3.4.0",
+    "lodash": "^4.13.1",
+    "xlsx": "^0.8.0"
+  }
+}
